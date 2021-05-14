@@ -12,7 +12,7 @@ dnf install redhat-rpm-config gcc libffi-devel python3-devel openssl-devel cargo
 pip3 install paramiko <br>
 
 ## Make Pre-requisite directories
-mkdir /upload
-chmod 777 /upload
-mkdir /archive
-chmod 777 /archive
+mkdir /upload <br/>
+chmod 777 /upload <br/>
+mkdir /archive </br/>
+chmod 777 /archive </br/>
