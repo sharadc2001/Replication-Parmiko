@@ -14,5 +14,5 @@ pip3 install paramiko <br>
 ## Make Pre-requisite directories
 mkdir /upload <br/>
 chmod 777 /upload <br/>
-mkdir /archive </br/>
-chmod 777 /archive </br/>
+mkdir /archive <br/>
+chmod 777 /archive <br/>
