@@ -1,6 +1,7 @@
-# python_scheduler
-Python Scheduler
+## python_scheduler
+## Python Scheduler
 --------------------
+# Meeting the Pre-requisites
 dnf install python3 <br/>
 pip3 install schedule --user <br/> 
 pip3 install setuptools-rust <br/>
