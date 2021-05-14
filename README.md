@@ -10,3 +10,9 @@ pip3 install PyNaCl <br/>
 pip3 install bcrypt <br/>
 dnf install redhat-rpm-config gcc libffi-devel python3-devel openssl-devel cargo <br/>
 pip3 install paramiko <br>
+
+## Make Pre-requisite directories
+mkdir /upload
+chmod 777 /upload
+mkdir /archive
+chmod 777 /archive
