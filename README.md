@@ -24,9 +24,9 @@ On the other hand, the ClientAliveCountMax parameter defines the number of clien
 
 Timeout value = ClientAliveInterval * ClientAliveCountMax
 
-Example: 
-ClientAliveInterval  1200
-ClientAliveCountMax 3
+Example: <br/>
+ClientAliveInterval  1200 <br/>
+ClientAliveCountMax 3 <br/>
 
 The Timeout value will be 1200 seconds * 3 = 3600 seconds. 
 This is an equivalent of 1 hour, which implies that your ssh session will remain alive for idle time of 1 hour without dropping.
