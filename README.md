@@ -32,10 +32,11 @@ chmod 777 /archive <br/>
 ## Service Setup
 a) Copy schedule_test_every_two_min.py in /opt or directory of your choice (make sure to modify service file in this case). <br/>
 b) Copy python-scheduler.service in /etc/systemd/system directory. <br/>
-c) Run systemd-analyze verify python-scheduler.service to ensure that file is correct. If it is correct it should not return any output. <br/>
-d) Run systemctl enable python-scheduler.service to enable service to start automatically on system restart. <br/>
-e) Run systemctl start python-scheduler.service <br/>
-f) Run systemctl status python-scheduler.service to check the status of service. <br/>
+c) Run systemctl daemon-reload
+d) Run systemd-analyze verify python-scheduler.service to ensure that file is correct. If it is correct it should not return any output. <br/>
+e) Run systemctl enable python-scheduler.service to enable service to start automatically on system restart. <br/>
+f) Run systemctl start python-scheduler.service <br/>
+g) Run systemctl status python-scheduler.service to check the status of service. <br/>
 
 ## SSH Session Timeout
 The ClientAliveInterval parameter specifies the time in seconds that the server will wait before sending a null packet to the client system to keep the connection alive.
