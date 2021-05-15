@@ -59,7 +59,7 @@ def geeks():
                   finally:
                       ssh.close()
         else:        
-         print("Shaurya says Geeksforgeeks") 
+         print("File Transfer Not yet Initiated") 
       except FileNotFoundError:
             print("Directory: {0} does not exist".format(path))
       except NotADirectoryError:
