@@ -1,4 +1,4 @@
-## Data Replication Across Computes using Python Scheduler
+# Data Replication Across Computes using Python Scheduler
 
 --------------------
 # Meeting the Pre-requisites
