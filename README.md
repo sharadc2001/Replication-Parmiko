@@ -1,4 +1,4 @@
-# Implementing Real-time or Scheduled Data Replication Framework using Parmiko
+# Implementing Near Real-time or Scheduled Data Replication Framework using Parmiko
 
 # Reference Architecture
 ![Alt text](/images/Screenshot_4_lat.jpg?raw=true "") 
