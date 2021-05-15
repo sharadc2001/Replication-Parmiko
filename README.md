@@ -49,10 +49,14 @@ nload -m <br/>
 
 ## Example - File is externally uploaded to virtual server ftom WinSCP and this will is replcated to second virtual server through python code
 # Step1 - Uploading File 
+
 ![Alt text](/images/Screenshot_5.jpg?raw=true "") <br/>
 
 When uploading complete check the rate - 
 
+![Alt text](/images/Screenshot_6.jpg?raw=true "")
+
+# Step2 - Now when the upload is completed, Internal replication of file will be started by python scheduler
 
 ![Alt text](/images/Screenshot_4.jpg?raw=true "")
 ## Reference:
