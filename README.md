@@ -52,9 +52,9 @@ nload -m <br/>
 
 ![Alt text](/images/Screenshot_5.jpg?raw=true "") <br/>
 
-When uploading complete check the rate - 
+When uploading complete check the rate, as changing of data in window will stop now - 
 
-![Alt text](/images/Screenshot_6.jpg?raw=true "")
+![Alt text](/images/Screenshot_7.jpg?raw=true "")
 
 # Step2 - Now when the upload is completed, Internal replication of file will be started by python scheduler
 
