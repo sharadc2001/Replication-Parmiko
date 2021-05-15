@@ -38,9 +38,9 @@ ClientAliveInterval  3600
 Once done, reload the OpenSSH daemon for the changes to come into effect.
 
 ## Performance Measurement
-dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-dnf install nload
-nload -m
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm <br/>
+dnf install nload <br/>
+nload -m <br/>
 
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
