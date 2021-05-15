@@ -1,5 +1,7 @@
 # Data Replication Across Computes using Python Scheduler
 
+# Reference Architecture
+![Alt text](/images/Screenshot_4_lat.jpg?raw=true "") 
 --------------------
 # Meeting the Pre-requisites
 dnf install python3 <br/>
