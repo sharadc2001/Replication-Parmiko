@@ -9,6 +9,8 @@ The private network can be either cloud-based network or on-prem data center net
 
 The python replication service runs as systemd service on RHEL and starts automatically when OS is restarted. Any time data is loaded into landing zone, this service replicates it to other computes it is configured for. This service needs to be installed and confirmed on all participating peer machines for cross replication. This service will not replicate data which is currently downloading, in RHEL it has a **.filepart** extension and wait for it to completely download before action on it. The additional extensions (if any) can be added in the service code. 
 
+This also talks about performance measurement for data transfer between two machines.
+
 # Parmiko
 Paramiko primarily supports POSIX platforms with standard OpenSSH implementations, and is most frequently tested on Linux and OS X. Windows is supported as well, though it may not be as straightforward. Details can be found in below git-hub link:
 
