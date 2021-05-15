@@ -22,7 +22,7 @@ def work():
 def bedtime(): 
 	print("Write Some Implementation") 
 	
-def geeks(): 
+def fn(): 
       try:
         path, dirs, files = next(os.walk(dirPath))
         file_count=len(files)
@@ -54,10 +54,10 @@ def geeks():
             print("You do not have permissions to change to {0}".format(path))
 # Task scheduling 
 # After every 10mins geeks() is called. 
-schedule.every(1).minutes.do(geeks) 
+schedule.every(1).minutes.do(fn) 
 
-# After every hour geeks() is called. 
-#schedule.every().hour.do(geeks) 
+# After every hour fn() is called. 
+#schedule.every().hour.do(fn) 
 
 # Every day at 12am or 00:00 time bedtime() is called. 
 #schedule.every().day.at("00:00").do(bedtime) 
