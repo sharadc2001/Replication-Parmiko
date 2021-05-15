@@ -45,7 +45,7 @@ def geeks():
                 print("Uploaded Successsfully")
                 shutil.move(f, '/archive/'+filename) 
         else:        
-         print("Shaurya says Geeksforgeeks") 
+         print("File transfer not yet initiated") 
       except FileNotFoundError:
             print("Directory: {0} does not exist".format(path))
       except NotADirectoryError:
