@@ -77,6 +77,8 @@ The schedule will not initiate transfer during downloading process <br/>
 Copy python-scheduler.service in /etc/systemd/system directory.
 ![Alt text](/images/Screenshot_5_lat.jpg?raw=true "") <br/>
 
+## Note: Entry Environment=PYTHONUNBUFFERED=1 in systemd service file ensures that the logging is not buffered and is real time. The logging is generated in /var/log/messages file
+
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
 http://www.paramiko.org/installing.html#cryptography <br/>
