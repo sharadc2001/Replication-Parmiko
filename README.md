@@ -42,6 +42,8 @@ dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 dnf install nload <br/>
 nload -m <br/>
 ![Alt text](/images/Screenshot_1.jpg?raw=true "")
+# nload commands
+![Alt text](/images/Screenshot_2.jpg?raw=true "")
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
 http://www.paramiko.org/installing.html#cryptography <br/>
