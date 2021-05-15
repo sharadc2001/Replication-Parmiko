@@ -1,5 +1,5 @@
-## python_scheduler
-## Python Scheduler
+## Data Replication Across Computes using Python Scheduler
+
 --------------------
 # Meeting the Pre-requisites
 dnf install python3 <br/>
