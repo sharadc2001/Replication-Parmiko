@@ -39,4 +39,8 @@ Once done, reload the OpenSSH daemon for the changes to come into effect.
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
 http://www.paramiko.org/installing.html#cryptography <br/>
-https://www.programcreek.com/python/example/4561/paramiko.SSHClient
+https://www.programcreek.com/python/example/4561/paramiko.SSHClient <br/>
+https://www.cyberciti.biz/faq/how-to-test-the-network-speedthroughput-between-two-linux-servers/ <br/>
+https://www.cyberciti.biz/faq/linux-unix-test-internet-connection-download-upload-speed/ <br/>
+https://phoenixnap.com/kb/linux-network-speed-test <br/>
+https://www.cyberciti.biz/faq/linux-unix-test-internet-connection-download-upload-speed/ 
