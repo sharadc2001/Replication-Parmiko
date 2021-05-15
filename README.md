@@ -47,7 +47,13 @@ nload -m <br/>
 # Where <br/>
 ![Alt text](/images/Screenshot_3.jpg?raw=true "")
 
-## Example
+## Example - File is externally uploaded to virtual server ftom WinSCP and this will is replcated to second virtual server through python code
+# Step1 - Uploading File 
+![Alt text](/images/Screenshot_5.jpg?raw=true "") <br/>
+
+When uploading complete check the rate - 
+
+
 ![Alt text](/images/Screenshot_4.jpg?raw=true "")
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
