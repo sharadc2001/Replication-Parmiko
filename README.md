@@ -50,19 +50,18 @@ nload -m <br/>
 # Example Scenario - File is externally uploaded to virtual server ftom WinSCP and this will is replcated to second virtual server through python code
 # Step1 - Uploading File 
 
-![Alt text](/images/Screenshot_5.jpg?raw=true "") <br/>
+After file transfer is started one can verify download speed as below <br/>
+![Alt text](/images/Screenshot_1_lat.jpg?raw=true "") <br/>
 
-When uploading complete check the rate, as changing of data in window will stop now - <br/>
+One the upload is complete to first virtual server, python scheduler will replicate the data to second virtual server as shown below, one can not both outbound transfer rate on first server and inbound rate on second server  - <br/>
 
-![Alt text](/images/Screenshot_7.jpg?raw=true "")
+![Alt text](/images/Screenshot_2_lat.jpg?raw=true "")
 
-# Step2 - Now when the upload is completed, Internal replication of file will be started by python scheduler
+The schedule will not initiate transfer during downloading process <br/>
 
-![Alt text](/images/Screenshot_8.jpg?raw=true "") <br/>
+![Alt text](/images/Screenshot_3_lat.jpg?raw=true "") <br/>
 
-One can now see Internal transfer is initiated as soon as upload completes
 
-![Alt text](/images/Screenshot_4.jpg?raw=true "") <br/>
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
 http://www.paramiko.org/installing.html#cryptography <br/>
