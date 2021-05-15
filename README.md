@@ -47,7 +47,7 @@ nload -m <br/>
 # Where <br/>
 ![Alt text](/images/Screenshot_3.jpg?raw=true "")
 
-# Example Scenario - File is externally uploaded to virtual server ftom WinSCP and this will is replcated to second virtual server through python code
+# Example Scenario - File is externally uploaded to virtual server ftom WinSCP and this will is replicated to second virtual server through python code
 # Step1 - Uploading File 
 
 After file transfer is started one can verify download speed as below <br/>
