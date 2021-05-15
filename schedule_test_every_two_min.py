@@ -11,16 +11,16 @@ dstDirPath="/archive"
 
 # Functions setup 
 def sudo_placement(): 
-	print("Get ready for Sudo Placement at Geeksforgeeks") 
+	print("Write Some Implementation") 
 
 def good_luck(): 
-	print("Good Luck for Test") 
+	print("Write Some Implementation") 
 
 def work(): 
-	print("Study and work hard") 
+	print("Write Some Implementation") 
 
 def bedtime(): 
-	print("It is bed time go rest") 
+	print("Write Some Implementation") 
 	
 def geeks(): 
       try:
