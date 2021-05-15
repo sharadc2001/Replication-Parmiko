@@ -75,7 +75,7 @@ The schedule will not initiate transfer during downloading process <br/>
 
 # Running Scheduler as Systemd Service
 Copy python-scheduler.service in /etc/systemd/system directory.
-
+![Alt text](/images/Screenshot_5_lat.jpg?raw=true "") <br/>
 
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
