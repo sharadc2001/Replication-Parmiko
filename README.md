@@ -36,6 +36,11 @@ Alternatively, you can achieve the same result by specifying the ClientAliveInte
 ClientAliveInterval  3600
 
 Once done, reload the OpenSSH daemon for the changes to come into effect.
+
+## Performance Measurement
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+
+
 ## Reference:
 https://cryptography.io/en/3.4.5/installation.html <br/>
 http://www.paramiko.org/installing.html#cryptography <br/>
