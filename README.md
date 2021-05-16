@@ -89,7 +89,7 @@ The schedule will not initiate transfer during downloading process <br/>
 
 ![Alt text](/images/Screenshot_3_lat.jpg?raw=true "") <br/>
 
-### Running Replication Scheduler as Systemd Service
+## Running Replication Scheduler as Systemd Service
 Copy python-scheduler.service in /etc/systemd/system directory.
 
 ![Alt text](/images/Screenshot_5_lat.jpg?raw=true "") <br/>
