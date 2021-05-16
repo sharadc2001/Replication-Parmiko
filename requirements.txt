@@ -1,0 +1,6 @@
+schedule==1.1.0
+setuptools-rust==0.12.1
+PyNaCl==1.4.0
+bcrypt==3.2.0
+paramiko==2.7.2
+loguru==0.5.3
