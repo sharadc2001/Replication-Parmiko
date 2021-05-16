@@ -18,6 +18,7 @@ https://github.com/paramiko/paramiko
 
 --------------------
 # Meeting the Pre-requisites
+Python Version : 3.6.8
 dnf install python3 <br/>
 pip3 install schedule  <br/> 
 pip3 install setuptools-rust <br/>
