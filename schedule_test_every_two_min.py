@@ -41,7 +41,7 @@ def fn():
                     logger.debug("filename:", filename)  
                     ssh = paramiko.SSHClient()
                     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-                    ssh.connect('10.240.65.4', username='root', password='<<Your_Password>>')
+                    ssh.connect('<<Private_IP of target machine>>', username='root', password='<<Your_Password>>')
                     sftp = ssh.open_sftp()
                     dstPath=dstDirPath+"/"+filename
                     logger.debug("filename", filename)
