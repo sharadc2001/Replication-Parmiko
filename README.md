@@ -18,6 +18,8 @@ https://github.com/paramiko/paramiko
 
 ### The advantage of using this framework is that, data transfer is network agnostic and one can transfer data from any network to any other network provided that they are reachable. No password-less authentication is needed between hosts. The speed of data transfer would depend on available present network bandwidth.
 
+### Another advantage attached to this approach is that this works for local storage as well. One might not need a SAN LUN.
+
 ### In current scenario compression is missing and one can easily leverage python compression API to compress the data before transfer. May be I will add this going further.
 
 --------------------
