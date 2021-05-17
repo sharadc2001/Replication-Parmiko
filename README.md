@@ -40,6 +40,8 @@ chmod 777 /archive <br/>
 
 where upload directory is a landing zone and archive folder is where file is copied locally for further action. Similar directory structure should be created on remote machine(s) as well. 
 
+**Note**: User can create directory structure of his choice, provided he whould update the python script.
+
 ## Service Setup
 a) Copy schedule_test_every_two_min.py in /opt or directory of your choice (make sure to modify service file in this case). <br/>
 b) Copy python-scheduler.service in /etc/systemd/system directory. <br/>
