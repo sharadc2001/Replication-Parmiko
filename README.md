@@ -33,7 +33,7 @@ pip3 install PyNaCl <br/>
 pip3 install bcrypt <br/>
 dnf install redhat-rpm-config gcc libffi-devel python3-devel openssl-devel cargo <br/>
 pip3 install paramiko <br>
-pip install loguru <br/>
+pip3 install loguru <br/>
 ## Make Pre-requisite directories
 mkdir /upload <br/>
 chmod 777 /upload <br/>
