@@ -47,7 +47,7 @@ where upload directory is a landing zone and archive folder is where file is cop
 ## Service Setup
 a) Copy schedule_test_every_two_min.py in /opt or directory of your choice (make sure to modify service file in this case). <br/>
 b) Copy python-scheduler.service in /etc/systemd/system directory. <br/>
-c) Run systemctl daemon-reload
+c) Run systemctl daemon-reload <br/>
 d) Run systemd-analyze verify python-scheduler.service to ensure that file is correct. If it is correct it should not return any output. <br/>
 e) Run systemctl enable python-scheduler.service to enable service to start automatically on system restart. <br/>
 f) Run systemctl start python-scheduler.service <br/>
